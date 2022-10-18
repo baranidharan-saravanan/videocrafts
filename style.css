@@ -1,0 +1,64 @@
+div{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url("GWIBBLE_.TTF");
+}
+
+h1{
+    text-align: center;
+    color: #6b00b3;
+    font-family: myfont;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+h3{
+    font-style: italic;
+    color:  #cca300;
+    font-family: Arial;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+video[poster]
+{
+    object-fit: cover;
+}
+
+video:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 5px 5px #6b00b3; 
+}
+
+td{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+td p{
+    padding:0px;
+}
+
+body{
+    background-image: url("output-onlinepngtools.png") ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100%;
+    width:100%;
+}
+
+.vert{
+    padding-top: 0px;
+}
+
+.vert > p{
+    margin-top: 0px;
+
+}
